@@ -1,0 +1,249 @@
+/* style.css */
+/* index */
+body{
+	margin:0;
+	background:#EAE5E5;
+	color:#4D4D4D;
+}
+
+#home {
+	
+}
+
+.header{
+	margin: 0 auto;
+	width: 900px;
+}
+
+#menu{
+	margin-top:17px;
+	margin-right:50px;
+	margin-bottom:50px;
+	float: right;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	font-size:20px;
+	font-family: 'Russo One', sans-serif;
+}
+
+#menu ul li a {
+	color: #4D4D4D;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color:#61D0D4;
+}
+
+#nama{
+	float: left;
+	font-family: 'Rye', cursive;
+}
+
+.isi{
+	margin: 0 auto;
+	width: 900px;
+	clear:both;
+	height:388px;
+}
+
+#kiri{
+	display: inline-block;
+	width:445px;
+	padding-top:20px;
+}
+
+#kanan{
+	display: inline-block;
+	width:445px;
+	float:right;
+}
+
+#kanan h1 {
+	font-size:45px;
+}
+
+.footer{
+	clear:both;
+	margin-top:50px;
+	height:100px;
+	background:#E83556;
+	color: white;
+}
+
+.layout{
+	margin: 0 auto;
+	width: 900px;
+}
+
+#call{
+	display: inline-block;
+	width:140px;
+	float:left;
+	padding-top:20px;
+	margin-right:60px;
+}
+
+#contact{
+	display: inline-block;
+	width:230px;
+	padding-top:20px;
+	float:left;
+	margin-right:60px;
+}
+
+#contact table td a {
+	color: white;
+	text-decoration: none;
+}
+
+#follow{
+	display: inline-block;
+	width:130px;
+	padding-top:20px;
+}
+
+#follow table td a {
+	color: white;
+	text-decoration: none;
+}
+
+#c {
+	float:right;
+	display: inline-block;
+	width:220px;
+	padding-top:20px;
+}
+/* page2 */
+
+.isiprofile{
+	margin: 0 auto;
+	width: 900px;
+	clear:both;
+}
+
+#kiriprofile{
+	display: inline-block;
+	width:240px;
+	padding-left:200px;
+	font-size:24px;
+}
+
+#kananprofile{
+	display: inline-block;
+	width:440px;
+	float:right;
+	font-size:24px;
+}
+
+.judulprofile{
+	font-size:72px;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* page3 */
+
+.isiresume{
+	margin: 0 auto;
+	width: 900px;
+	clear:both;
+	height:388px;
+}
+
+#kiriresume{
+	display: inline-block;
+	width:645px;
+}
+
+#kiriresume table tr td p{
+	padding-left:20px;
+	padding-top:px;
+}
+
+#kananresume{
+	display: inline-block;
+	width:200px;
+	float:right;
+	padding-top:120px;
+}
+
+.judulresume{
+	font-size:72px;
+	font-family: 'Oswald', sans-serif;
+}
+/* page4 */
+
+.isiprojects{
+	margin: 0 auto;
+	width: 900px;
+	clear:both;
+	height:700px;
+}
+
+.h{
+	color:#E83556;
+	text-decoration: none;
+}
+
+.h:hover {
+	color:#61D0D4;
+}
+
+.judulprojects{
+	font-size:72px;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* page5 */
+
+input[type="text"]{
+	background :#E83556;
+	border: none;
+	padding: 8px 16px;
+	margin: 2px 0;
+	width: 400px;
+	color:white;
+}
+
+textarea{
+	color:white;
+	background :#E83556;
+	border: none;
+	padding: 8px 16px;
+	margin: 2px 0;
+	width: 400px;
+}
+
+input[type="submit"]{
+	background :#61D0D4;
+	border: none;
+	padding: 8px 16px;
+}
+
+.isicontact{
+	margin: 0 auto;
+	width: 900px;
+	clear:both;
+	height:388px;
+}
+
+#kiricontact{
+	display: inline-block;
+	width:445px;
+}
+
+.judulcontact{
+	font-size:72px;
+	padding-bottom:190px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#kanancontact{
+	display: inline-block;
+	width:445px;
+	float:right;
+	padding-top:30px;
