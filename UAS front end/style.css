@@ -1,0 +1,449 @@
+/*side bar*/
+
+#logo{
+	background-color: #27303A;
+	color: #EAEAEA;
+	font-size: 22px;
+	letter-spacing: 4px;
+	padding: 10px;
+}
+#border-logo{
+	border-radius: 50px;
+	border: #EAEAEA solid 2px;
+	padding: 5px;
+	letter-spacing: 0px;
+	font-size: 20px;
+}
+#biru-logo{
+	color: #36C6D3;
+}
+
+.warna-sidebar{
+	color: #8B94A0;
+	background-color: #2B3643;
+}
+
+#row-search{
+	height: 75px;
+}
+
+#search{
+	border: none;
+	background-color: #2B3643;
+}
+
+#icon-search{
+	padding-right: 10px;
+}
+
+#margin-search{
+	margin: 40px 25px 0px ;
+	padding-bottom: 5px;
+	border-bottom: solid 1px;
+}
+
+#judul-sidebar{
+	padding-left: 15px;
+	margin-top:22px;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: .5px;
+}
+
+#icon-li{
+	margin-right: 10px;
+	font-size: 17px;
+}
+
+.nav li a{
+	padding: 13px 15px 12px;
+	margin-bottom:6px;
+	font-size: 13px;
+}
+
+.ul-sidebar li {
+	border-bottom: #394149 solid 1px;
+}
+
+.navbar-fixed-bottom{
+	background-color: #27303A;
+	font-size: 17px;
+	padding: 12px 0px 7px;
+	border-top: #303B4A solid 5px;
+}
+
+
+
+/*content*/
+
+#content{
+	padding:0px;
+	background-color: white;
+}
+
+#icon-menu{
+	font-size: 24px;
+	color: black;
+}
+
+#posisi-icon-menu{
+	padding:16px 20px 0px 5px;
+	margin:0px;
+}
+
+#badge-navbar{
+	position: absolute;
+	top: 3px;
+	left: 20px;
+	background-color: #36C6D3;
+}
+#navbar-kanan li a{
+	padding: 15px 15px 10px 15px;
+	margin-bottom: 0px;
+	color: black;
+}
+#icon-navbar{
+	margin-top: 5px;
+	font-size: 15px;
+}
+#navbar{
+	border-bottom: #D9DEE4 solid 1px;
+	box-shadow: 35px 2px 50px #D9DEE4;
+	background-color: white;
+}
+
+#judul-utama{
+	background-color: white;
+	margin-top: 2px;
+	border-bottom: #D9DEE4 solid 1px;
+}
+.breadcrumb{
+	padding-left: 20px;
+	background-color: white;
+	margin-bottom: 0px;
+}
+
+.breadcrumb a{
+	color: #888;
+}
+
+.breadcrumb a:hover{
+	color: #3498db;
+}
+
+#content-utama{
+	padding:20px;
+	background-color: white;
+}
+
+#warna-biru-muda{
+	background-color: #50C1CF;
+}
+#warna-ungu{
+	background-color: #9B59B6;
+}
+#warna-merah{
+	background-color: #E74C3C;
+}
+#warna-biru{
+	background-color: #3498DB;
+}
+#warna-biru-muda .glyphicon-shopping-cart{
+	padding-right:40px;
+	color: #4DB9C6;
+	font-size: 80px;
+}
+#warna-ungu .glyphicon-comment{
+	padding-right:40px;
+	color: #8E51A6;
+	font-size: 80px;
+}
+#warna-merah .glyphicon-sort-by-attributes-alt{
+	padding-right:40px;
+	color: #D04537;
+	font-size: 80px;
+}
+#warna-biru .glyphicon-check{
+	padding-right:40px;
+	color: #2D85BF;
+	font-size: 80px;
+}
+
+.posisi-icon{
+	position:absolute;
+	color: blue;
+	font-size: 80px;
+	z-index: 1;
+	right: 10px;
+	top: 15px;
+}
+.tulisan{
+	font-size: 38px;
+	color:white;
+	position: relative;
+	z-index: 2;
+}
+.tulisan h3{
+	font-size: 24px;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.tulisan p{
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+.posisi-tulisan{
+	padding-left:10px;
+}
+
+.panel{
+	border-radius: 0px;
+}
+
+#panel-grafik{
+	margin-top: 20px;
+}
+.panel-default .panel-heading{
+	margin-left:15px;
+	margin-right: 15px;
+	background-color: white;
+	padding: 5px 10px;
+}
+
+.panel-default .panel-heading h4{
+	color: #595F65;
+}
+
+#grafik{
+	margin:0px;
+}
+
+#button-calendar{
+	padding-top: 5px;
+}
+#button-calendar .btn{
+	border-radius:0px;
+}
+
+#bar{
+	margin-top: 20px;
+}
+
+.kotak-kecil{
+	border-radius: 0px;
+	height: 10px;
+	box-shadow: none;
+}
+
+#table-last-orders tr td{
+	vertical-align: middle;
+}
+
+#table-last-orders tr th{
+	border-bottom: 1px;
+}
+/*order radius 0px*/
+.br-0{
+	border-radius: 0px;
+}
+
+#border-icon{
+	border-radius: 25px;
+	font-size: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 5px;
+	margin-top: -10px;
+	color: #C5C7CB;
+}
+
+#table-visitors-location td{
+	border-top: none;
+}
+
+#table-visitors-location thead tr th{
+	font-size: 13px;
+	border-bottom: none;
+	padding-top: 5px;
+}
+
+#table-visitors-location tbody tr td{
+	font-size: 15px;
+	padding: 5px;
+}
+
+#table-visitors-location tbody tr td span{
+	font-size: 17px;
+}
+
+#country{
+	padding-left:25px;
+}
+
+.geser-kanan{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+#diagram{
+	margin-bottom: 15px;
+}
+
+.margin-bendera{
+	margin-bottom: 5px;
+}
+
+#task-list{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#task-list .li-1{
+	border:none;
+}
+
+#task-list li{
+	border-left:none;
+	border-right: none;
+	border-bottom: none;
+	border-radius: none;
+}
+
+.panel-body-tasklist{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#task-list li{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #707070;
+}
+
+.scroll .media-body {
+	font-size: 13px;
+}
+
+.scroll .media-body p{
+	font-size: 12px;
+}
+
+.scroll{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 340px;
+  padding:10px;
+}
+
+#arrow-kanan{
+	left: -15px;
+	font-size: 16px;
+	color: #F3565D;
+}
+
+#garis-kanan{
+	border-left:#F3565D solid 2px;
+}
+
+#foto-kanan{
+	margin-left: 5px;
+	margin-top: -20px;
+}
+
+#arrow-kiri{
+	right: -54px;
+	font-size: 16px;
+	color: #1BBC9B;
+}
+
+#garis-kiri{
+	border-right:#1BBC9B solid 2px;
+}
+
+#foto-kiri{
+	margin-left: 5px;
+	margin-top: -20px;
+}
+
+.scroll .media-body{
+	background-color: #FAFAFA;
+	padding: 5px;
+}
+
+#pesan{
+	margin-top: 10px;
+	background-color: #D9D9D9;
+	padding:10px;
+}
+
+#arrow-kirim{
+	color: #3598DC;
+	border-color: #3598DC;
+	font-size: 15px;
+	left: -11px;
+}
+
+#kirim{
+	background-color:#3598DC;
+	border-radius: 0px;
+	padding-left: 0px;
+}
+
+#kotak-pesan{
+	border-radius:0px;
+}
+
+#garis-timeline{
+	border: none;
+	border-radius: 0px;
+	border-left: #3498DB solid 3px;
+}
+
+#titik-timeline{
+	position: absolute;
+	top: 15px;
+	left: -8px;
+	width: 14px;
+	height: 14px;
+	border: #3498DB solid 2px;
+	border-radius: 14px;
+	background: white;
+}
+
+#garis-timeline p span{
+	color: #3590c1;
+	font-style: italic;
+}
+#garis-timeline p a{
+	 color: black;
+	font-style: italic;
+}
+#garis-timeline p a:hover{
+	text-decoration: none;
+	 color: #3590c1;
+}
+#garis-timeline p{
+	font-size: 13px;
+}
+#garis-timeline h4 small{
+	margin-left: 5px;
+	font-size: 13px;
+}
+#garis-timeline h4 {
+	font-size: 16px;
+}
+#garis-timeline ul li {
+	list-style: square;
+}
+#garis-timeline ul li p small{
+	color: #9eacb4;
+}
+#garis-timeline button{
+	border-radius: 25px;
+}
+
+footer{
+	margin-top: 80px;
+}

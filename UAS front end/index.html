@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Altena | dashboard
+	</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid" style="background-color: #2B3643">
+	<div class="row">
+		<div class="col-md-2 col-sm-2 col-xs-1">
+			<div class="row" id="logo">
+				<span class="glyphicon glyphicon-adjust" id="border-logo"></span> Alte<span id="biru-logo">na</span>
+			</div>
+
+			<div class="row warna-sidebar">
+				<div class="row" id="row-search">
+					<form action="" method="POST" id="margin-search">
+	                    <input type="text" id="search" placeholder="Search...">
+						<span class="glyphicon glyphicon-search pull-right" id="icon-search"></span>
+	                </form>
+				</div>
+
+				<h3 id="judul-sidebar">GENERAL</h3>
+				<ul class="nav ul-sidebar" >
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-home" id="icon-li"></span>Home<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-edit" id="icon-li"></span>Forms<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-blackboard" id="icon-li"></span>UI Elements<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-list-alt" id="icon-li"></span>Tables<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-stats" id="icon-li"></span>Charts<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-map-marker" id="icon-li"></span>Maps<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-duplicate" id="icon-li"></span>Layouts<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+				</ul>
+
+				<h3 id="judul-sidebar">EXTRA</h3>
+				<ul class="nav ul-sidebar">
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-envelope" id="icon-li"></span>Messages<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-tasks" id="icon-li"></span>Task Manager<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-hdd" id="icon-li"></span>Additional Pages<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-shopping-cart" id="icon-li"></span>E-commerce<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+					<li><a href="#" class="warna-sidebar"><span class="glyphicon glyphicon-th" id="icon-li"></span>Multilevel Menu<span class="glyphicon glyphicon-menu-down pull-right"></a></li>
+				</ul>
+
+				<nav class="navbar-fixed-bottom col-md-2 col-sm-2 col-xs-1">
+					<div class="col-md-6 text-center" ><a href="" style="color: #8B94A0"><span class="glyphicon glyphicon-book"></span></a></div>
+					<div class="col-md-6 text-center"><a href=""  style="color: #8B94A0"><span class="glyphicon glyphicon-fullscreen"></span></a></div>
+				</nav>
+			</div>
+		</div>
+		<div class="col-md-10 col-sm-10 col-xs-11" id="content">
+			<nav class="navbar-default" id="navbar">
+				<div class="container-fluid">
+					<ul class="nav navbar-nav">
+				      <li><a href="#" id="posisi-icon-menu"><span class="glyphicon glyphicon-menu-hamburger" id="icon-menu"></span></a></li>
+				    </ul>
+				    <ul class="nav navbar-nav navbar-right" id="navbar-kanan">
+				      <li><a href="#" id="icon-navbar"><span class="glyphicon glyphicon-asterisk"></span><span class="badge" id="badge-navbar">5</span></a></li>
+				      <li><a href="#" id="icon-navbar"><span class="glyphicon glyphicon-envelope"></span><span class="badge" id="badge-navbar">6</span></a></li>
+				      <li><a href="#"><img src="images/user-card-1.jpg" alt="photo" class="img-circle" width="30px"> Eric Smith <span class="glyphicon glyphicon-menu-down" style="font-size: 10px"></span></a></li>
+				    </ul>
+				</div>
+			</nav>
+
+			<div id="judul-utama">
+				<ol class="breadcrumb">
+				  <li><a href="#">Home</a></li>
+				  <li class="active">Dashboard 1</li>
+				</ol>
+			</div>
+			<div id="content-utama">
+				<div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div id="warna-biru-muda" class="posisi-tulisan">
+                        	<span class="glyphicon glyphicon-shopping-cart posisi-icon"></span>
+                        	<span class="tulisan">349
+                        		<h3>ORDERS</h3>
+                        		<p>+15% From previous month</p>
+                        	</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div id="warna-ungu" class="posisi-tulisan">
+                        	<span class="glyphicon glyphicon-comment posisi-icon"></span>
+                        	<span class="tulisan">58,880 $
+                        		<h3>INCOM</h3>
+                        		<p>+25% From previous month</p>
+                        	</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div id="warna-merah" class="posisi-tulisan">
+                        	<span class="glyphicon glyphicon-sort-by-attributes-alt posisi-icon"></span>
+                        	<span class="tulisan">15,790
+	                        	<h3>VISITORS</h3>
+	                        	<p>+25% From previous month</p>
+	                        </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div id="warna-biru" class="posisi-tulisan">
+                        	<span class="glyphicon glyphicon-check posisi-icon"></span>
+                        	<span class="tulisan">3,271
+	                        	<h3>CUSTOMERS</h3>
+	                        	<p>+15% From previous month</p>
+	                        </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default" id="panel-grafik">
+					<div class="panel-heading" id="grafik">
+						<div class="row">
+							<div class="col-md-6">
+				    		<h4>PRODUCT SALES <small>DAILY STATS...</small></h4>
+				    	</div>
+				    	<div class="col-md-6">
+                			<div class="pull-right" id="button-calendar">
+                				<button class="btn btn-default" type="submit">
+                					<span class="glyphicon glyphicon-calendar"></span> Desember 9,2017-January 7,2018 <span class="glyphicon glyphicon-triangle-bottom" style="font-size: 10px;"></span>
+                				</button>
+                			</div>
+                		</div>
+						</div>
+				    	
+					</div>
+				  	<div class="panel-body">
+				    	<div>
+				    		<img src="images/grafik.png" width="100%">
+				    	</div>
+				    	<div id="bar">
+				    		<div class="col-md-3">
+				    			<p class="text-center" style="font-size: 17px;">Revenue <small>+ 80%</small></p>
+				    			<div class="progress kotak-kecil"> 
+								  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: purple;">
+								    <span class="sr-only">80% Complete</span>
+								  </div>
+								</div>
+				    		</div>
+				    		<div class="col-md-3">
+				    			<p class="text-center" style="font-size: 17px;">Tax <small>+ 20%</small></p>
+				    			<div class="progress kotak-kecil">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+								    <span class="sr-only">20% Complete</span>
+								  </div>
+								</div>
+				    		</div>
+				    		<div class="col-md-3">
+				    			<p class="text-center" style="font-size: 17px;">Shipment <small>+ 50%</small></p>
+				    			<div class="progress kotak-kecil">
+								  <div class="progress-bar  progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+								    <span class="sr-only">50% Complete</span>
+								  </div>
+								</div>
+				    		</div>
+				    		<div class="col-md-3">
+				    			<p class="text-center" style="font-size: 17px;">Orders <small>+ 50%</small></p>
+				    			<div class="progress kotak-kecil">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%; background-color: lightblue;">
+								    <span class="sr-only">50% Complete</span>
+								  </div>
+								</div>
+				    		</div>
+				    	</div>
+				  	</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8">
+						<div class="panel panel-default">
+						  <!-- Default panel contents -->
+							<div class="panel-heading">
+								<h4>LAST ORDERS 
+									<ul class="nav navbar-nav navbar-right">
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-chevron-up"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-wrench"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class=" glyphicon glyphicon-remove"></span></button></li>
+								  	</ul>
+								</h4>
+							</div>
+						  		<div class="panel-body">
+								  	 <!-- Table -->
+						  			<table class="table" id="table-last-orders">
+		                                <thead>
+		                                    <tr>
+		                                        <th>Image</th>
+		                                        <th>Product</th>
+		                                        <th>Purchased</th>
+		                                        <th>Tracking ID</th>
+		                                        <th>Status</th>
+		                                    </tr>
+		                                </thead>
+		                                <tbody>
+		                                    <tr>
+		                                        <td>
+		                                            <img src="images/macmouse.png" alt="mac_mouse">
+		                                        </td>
+		                                        <td>mac Mouse</td>
+		                                        <td>22/04/2016</td>
+
+		                                        <td>38SA3C9SC</td>
+		                                        <td>
+		                                            <span class="label label-default br-0">Failed</span>
+		                                        </td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td>
+		                                            <img src="images/iphone.png" alt="iPhone">
+		                                        </td>
+		                                        <td>iPhone</td>
+		                                        <td>15/07/2016</td>
+
+		                                        <td>78SA3C9SC</td>
+		                                        <td>
+		                                            <span class="label label-success br-0">Paid</span>
+		                                        </td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td>
+		                                            <img src="images/imac.png" alt="iMac">
+		                                        </td>
+		                                        <td>iMac</td>
+		                                        <td>22/08/2016</td>
+
+		                                        <td>1BYC854D84</td>
+		                                        <td>
+		                                            <span class="label label-success br-0">Paid</span>
+		                                        </td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td>
+		                                            <img src="images/applewatch.png" alt="apple_watch">
+		                                        </td>
+		                                        <td>apple Watch</td>
+		                                        <td>10/07/2016</td>
+
+
+		                                        <td>58BC85SD84</td>
+		                                        <td>
+		                                            <span class="label label-warning br-0">Pending</span>
+		                                        </td>
+		                                    </tr>
+		                                </tbody>
+		                            </table>
+						  		</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="panel panel-default">
+							<!-- Default panel contents -->
+							<div class="panel-heading">
+								<h4>VISITORS LOCATION
+									<ul class="nav navbar-nav navbar-right">
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-chevron-up"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-wrench"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class=" glyphicon glyphicon-remove"></span></button></li>
+								  	</ul>
+								</h4>
+							</div>
+							<div class="panel-body">
+								<!-- Table -->
+								<table class="table" id="table-visitors-location">
+									<thead>
+										<tr>
+											<th id="country">Country</th>
+											<th class="text-center">Orders</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><span class="glyphicon glyphicon glyphicon-stop geser-kanan" style="color: lightblue;"></span> U.S.A</td>
+											<td class="text-center">30%</td>
+										</tr>
+										<tr>
+											<td><span class="glyphicon glyphicon glyphicon-stop geser-kanan" style="color: lightgreen;"></span> U.K</td>
+											<td class="text-center">20%</td>
+										</tr>
+										<tr>
+											<td><span class="glyphicon glyphicon glyphicon-stop geser-kanan" style="color: purple;"></span> Germany</td>
+											<td class="text-center">15%</td>
+										</tr>
+										<tr>
+											<td><span class="glyphicon glyphicon glyphicon-stop geser-kanan" style="color: lightgray;"></span> China</td>
+											<td class="text-center">15%</td>
+										</tr>
+										<tr>
+											<td><span class="glyphicon glyphicon glyphicon-stop geser-kanan" style="color: pink;"></span> Others</td>
+											<td class="text-center">35%</td>
+										</tr>
+									</tbody>
+								</table>
+								<div id="diagram">
+									<img src="images/Screenshot-2018-1-13 Altena dashboard.png" class="center-block">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-8">
+						<div class="panel panel-default">
+							<!-- Default panel contents -->
+							<div class="panel-heading">
+								<h4>REGIONAL STATS
+									<ul class="nav navbar-nav navbar-right">
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-chevron-up"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-wrench"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class=" glyphicon glyphicon-remove"></span></button></li>
+								  	</ul>
+								<h4>
+							</div>
+
+							<div class="panel-body">
+								<div class="col-md-4">
+									<div class="text-center">
+										ORDERS IN DIFFERENT COUNTRIES
+									</div>
+									<div>
+										<div class="margin-bendera">
+											<img src="images/usa-icon.png" width="25px"><span> U.S.A</span>
+										</div>
+										<div class="progress kotak-kecil">
+											<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+											<span class="sr-only">80% Complete</span>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="margin-bendera">
+											<img src="images/uk-icon.png" width="25px"><span> U.K</span>
+										</div>
+										<div class="progress kotak-kecil">
+											<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+											<span class="sr-only">80% Complete</span>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="margin-bendera">
+											<img src="images/canada-icon.png" width="25px"><span> Canada</span>
+										</div>
+										<div class="progress kotak-kecil">
+											<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+											<span class="sr-only">80% Complete</span>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="margin-bendera">
+											<img src="images/germany-icon.png" width="25px"><span> Germany</span>
+										</div>
+										<div class="progress kotak-kecil">
+											<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+											<span class="sr-only">80% Complete</span>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="margin-bendera">
+											<img src="images/china-icon.png" width="25px"><span> China</span>
+										</div>
+										<div class="progress kotak-kecil">
+											<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+											<span class="sr-only">80% Complete</span>
+											</div>
+										</div>
+									</div>
+							</div>
+							<div class="col-md-8">
+									<div><img src="images/Screenshot-2018-1-14 Altena dashboard.png" width="100%"></div>
+							</div>
+						</div>
+					</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="panel panel-default">
+								  <!-- Default panel contents -->
+								<div class="panel-heading"><h4>
+								TASK LIST
+									<ul class="nav navbar-nav navbar-right">
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-chevron-up"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-wrench"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class=" glyphicon glyphicon-remove"></span></button></li>
+								  	</ul>
+								</h4>
+								</div>
+								<div class="panel-body panel-body-tasklist">
+									<ul class="list-group" id="task-list">
+										<li class="list-group-item li-1">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>Schedule meeting with new client </span><span class="label label-info br-0">Success</span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												</label>
+												<label>
+													<input type="checkbox" value=""><span>Create email address for new intern </span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>Have IT fix the network printer </span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>Copy backups to offsite location </span><span class="label label-danger br-0">Take action</span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>Food truck fixie locavors mcsweeney </span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>Create email address for new intern </span><span class="label label-warning br-0">Hint</span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>Edit the blog system </span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>Upload Photos and Video </span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>UX design change </span><span class="label label-warning br-0">Hint</span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" value=""><span>Copy backups to offsite location </span>
+												</label>
+											</div>
+										</li>
+									</ul>
+								</div>
+								
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="panel panel-default">
+								<!-- Default panel contents -->
+								<div class="panel-heading">
+									<h4>CHAT <small>ONLINE</small>
+									<ul class="nav navbar-nav navbar-right">
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-chevron-up"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-wrench"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class=" glyphicon glyphicon-remove"></span></button></li>
+								  	</ul>
+									</h4>
+								</div>
+									<div class="panel-body">
+										<div class="scroll">
+											<div class="media">
+												<div class="media-body">
+													<div class="media-heading text-right">
+														<a href="">Eric Smith</a> at 20:11
+													</div>
+													<p class="text-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+												</div>
+												<div class="media-right media-top" id="garis-kanan"><span class="glyphicon glyphicon-triangle-right" id="arrow-kanan"></span>
+													<a href="#">
+													<img class="media-object img-circle img-thumbnail" src="images/user-card-1.jpg" alt="foto" width="50px" id="foto-kanan">
+													</a>
+												</div>
+											</div>
+
+											<div class="media">
+												<div class="media-left media-top" id="garis-kiri"><span class="glyphicon glyphicon-triangle-left" id="arrow-kiri"></span>
+													<a href="#">
+													<img class="media-object img-circle img-thumbnail" src="images/user-card-2.jpg" alt="foto" width="50px" id="foto-kiri">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="media-heading text-left">
+														<a href="">Jessy</a> at 20:30
+													</div>
+													<p class="text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+												</div>
+											</div>
+
+											<div class="media">
+												<div class="media-left media-top" id="garis-kiri"><span class="glyphicon glyphicon-triangle-left" id="arrow-kiri"></span>
+													<a href="#">
+													<img class="media-object img-circle img-thumbnail" src="images/user-card-3.jpg" alt="foto" width="50px" id="foto-kiri">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="media-heading text-left">
+														<a href="">Ed Staffort</a> at 20:33
+													</div>
+													<p class="text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+												</div>
+											</div>
+
+											<div class="media">
+												<div class="media-body">
+													<div class="media-heading text-right">
+														<a href="">Eric Smith</a> at 20:11
+													</div>
+													<p class="text-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+												</div>
+												<div class="media-right media-top" id="garis-kanan"><span class="glyphicon glyphicon-triangle-right" id="arrow-kanan"></span>
+													<a href="#">
+													<img class="media-object img-circle img-thumbnail" src="images/user-card-1.jpg" alt="foto" width="50px" id="foto-kanan">
+													</a>
+												</div>
+											</div>
+
+											<div class="media">
+												<div class="media-left media-top" id="garis-kiri"><span class="glyphicon glyphicon-triangle-left" id="arrow-kiri"></span>
+													<a href="#">
+													<img class="media-object img-circle img-thumbnail" src="images/user-card-4.jpg" alt="foto" width="50px" id="foto-kiri">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="media-heading text-left">
+														<a href="">Mary Jane</a> at 20:40
+													</div>
+													<p class="text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="input-group" id="pesan">
+											<input type="text" class="form-control" placeholder="Type a message here..." id="kotak-pesan">
+											<span class="input-group-btn">
+											<button class="btn btn-default" type="button" id="kirim"><span class="glyphicon glyphicon-triangle-left" id="arrow-kirim"></span><span class="glyphicon glyphicon-ok" style="color: white"></span></button>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					<!-- Default panel contents -->
+						<div class="panel-heading">
+							<h4>RECENT ACTIVITIES <small>SESSIONS</small></h4>
+								<div>
+									<ul class="nav navbar-nav navbar-right">
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-chevron-up"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class="glyphicon glyphicon-wrench"></span></button></li>
+								  		<li><button class="btn btn-default" type="submit" id="border-icon"><span class=" glyphicon glyphicon-remove"></span></button></li>
+								  	</ul>
+								</div>
+								<div class="clearfix"></div>
+						</div>
+
+						<div class="panel-body">
+							<ul class="list-group">
+								<li class="list-group-item" id="garis-timeline">
+									<div class="media">
+										<div class="media-body">
+											<span id="titik-timeline"></span>
+											<h4 class="media-heading">Create membership plan <small> assigned to a task</small></h4>
+											<p><span>10 hours ago by </span><a href="">Antony Erixon</a></p>
+											<img src="images/user-card-2.jpg" alt="foto" class="img-circle img-thumbnail" width="40px">
+											<img src="images/user-card-4.jpg" alt="foto" class="img-circle img-thumbnail" width="40px">
+											<img src="images/user-card-3.jpg" alt="foto" class="img-circle img-thumbnail" width="40px">
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item" id="garis-timeline">
+									<div class="media">
+										<div class="media-body">
+											<span id="titik-timeline"></span>
+											<h4 class="media-heading">Mark Fedor <small> new message</small></h4>
+											<p><span>10 hours ago by </span><a href="">Mark Fedor</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item" id="garis-timeline">
+									<div class="media">
+										<div class="media-body">
+											<span id="titik-timeline"></span>
+											<h4 class="media-heading">Apple store <small> uploaded 2 product</small></h4>
+											<p><span>8 hours ago by </span><a href="">Antony Erixon</a></p>
+											<img src="images/applewatch.png">
+											<img src="images/imac.png">
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item" id="garis-timeline">
+									<div class="media">
+										<div class="media-body">
+											<span id="titik-timeline"></span>
+											<h4 class="media-heading">Germany orders <small> send shipment</small></h4>
+											<p><span>5 hours ago by </span><a href="">Mark Fedor</a></p>
+											<ul class="order_list">
+                                                <li>
+                                                    <p>Mac Mouse <small>ID #78SA3C9SC</small></p>
+                                                </li>
+                                                <li>
+                                                    <p>Apple Watch <small>ID #78SA3C9SC</small></p>
+                                                </li>
+                                                <li>
+                                                    <p>Mac Mouse <small>ID #78SA3C9SC</small></p>
+                                                </li>
+                                                <li>
+                                                    <p>Apple Watch <small>ID #78SA3C9SC</small></p>
+                                                </li>
+                                                <li>
+                                                    <p>Mac Mouse <small>ID #78SA3C9SC</small></p>
+                                                </li>
+                                                <li>
+                                                    <p>Apple Watch <small>ID #78SA3C9SC</small></p>
+                                                </li>
+                                                <li>
+                                                    <p>Mac Mouse <small>ID #78SA3C9SC</small></p>
+                                                </li>
+                                                <li>
+                                                    <p>Apple Watch <small>ID #78SA3C9SC</small></p>
+                                                </li>
+                                            </ul>
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item" id="garis-timeline">
+									<div class="media">
+										<div class="media-body">
+											<span id="titik-timeline"></span>
+											<h4 class="media-heading">Chat room <small> invite you to chatroom "best sells"</small></h4>
+											<p><span>3 hours ago by </span><a href="">Antony Erixon</a></p>
+											<button type="button" class="btn btn-info">Accept</button>
+                                            <button type="button" class="btn btn-default">Refuse</button>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<footer>
+					<div class="container-fluid">
+						<div class="pull-right">
+		                    &copy 2017 Altena Template by <a href="https://lifeinsys.com/">LifeInSYS</a>
+		                </div>
+					</div>
+            	</footer>
+			</div>
+			
+
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
